@@ -478,3 +478,5 @@ img { max-width: 100%; box-sizing: border-box; border: 8px solid white; border-r
 #content .row { padding: 15% 0 0;}
 #content .row:last-child {padding-bottom: 15%;}
 #title h1 { text-align: center; }
+#intro .column, #intro .columns { margin-left: 0!important; }
+@media (max-width: 550px) { #intro-image { margin-bottom: 10%; } }
